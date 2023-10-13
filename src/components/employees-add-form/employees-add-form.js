@@ -1,18 +1,20 @@
 import { Component } from 'react';
 
-import './employees-add-form.css'
+// import './employees-add-form.css'
+
+import './employee-add-form.scss';
 
 
 class EmployeesAddForm extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
+    
+        
+        state = {
             name: '',
             salary: '',
             isNameEmpty: false,
             isSalaryEmpty: false,
         }
-    }
+    
 
     onValueChange = (e) => {
         this.setState({
@@ -43,6 +45,8 @@ class EmployeesAddForm extends Component {
             isSalaryEmpty: false,
         })
     }
+
+    
     
 
     render(){
@@ -78,5 +82,7 @@ class EmployeesAddForm extends Component {
         );
     }
 }
+
+
 
 export default EmployeesAddForm;
