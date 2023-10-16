@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Accounting/static/css/main.da3791f3.css",
+    "main.js": "/Accounting/static/js/main.9d806185.js",
+    "index.html": "/Accounting/index.html",
+    "main.da3791f3.css.map": "/Accounting/static/css/main.da3791f3.css.map",
+    "main.9d806185.js.map": "/Accounting/static/js/main.9d806185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3791f3.css",
+    "static/js/main.9d806185.js"
+  ]
+}
