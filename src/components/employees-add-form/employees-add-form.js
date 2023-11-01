@@ -60,7 +60,7 @@ class EmployeesAddForm extends Component {
                     className="add-form d-flex"
                     onSubmit={this.onSubmit}>
                     <input type="text"
-                        className = {`form-control new-post-label ${isNameEmpty ? 'red' : ''}`}
+                        className = {`form-control new-post-label ${isNameEmpty ? '' : ''}`}
                         
                         placeholder="Name" 
                         name = 'name'
